@@ -1,0 +1,7 @@
+#to analyse C-HiC data with the following pipeline, these modules should be loaded in the working environment prior to launch the .sh
+
+module load GCC/7.3.0-2.30
+module load OpenMPI/3.1.1
+module load Bowtie2/2.3.4.2
+module load SAMtools/1.9
+module load R/3.5.1
