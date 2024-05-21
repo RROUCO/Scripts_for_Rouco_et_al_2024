@@ -6,5 +6,4 @@
 #SBATCH -p public-cpu
 #SBATCH -t 2-00:00:00
 
-srun ${HOME}/Software/hicup_v0.6.1/hicup --config /srv/beegfs/scratch/users/r/roucogar/CHiC_Robert_pipeline/C58ESCs2/Config_file_C58ESCs2_18092023.conf
-
+srun ${HOME}/Software/hicup_v0.6.1/hicup --config /srv/beegfs/scratch/users/r/roucogar/CHiC_Robert_pipeline/C58ESCs2/1_Config_file_example.conf
