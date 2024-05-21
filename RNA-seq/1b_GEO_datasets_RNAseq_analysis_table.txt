@@ -1,0 +1,4 @@
+FL-E105-WT-rep1	SRR3950230_1.fastq.gz	unstranded
+FL-E105-WT-rep2	SRR3950231_1.fastq.gz	unstranded
+FL-E135-WT-rep1	SRR3950234_1.fastq.gz	unstranded
+FL-E135-WT-rep2	SRR3950235_1.fastq.gz	unstranded
