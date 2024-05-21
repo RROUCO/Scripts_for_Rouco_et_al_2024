@@ -1,0 +1,1 @@
+Both Figure3 and Figure6 plots related to `RNA-seq` were generated using as input the corresponding `AllCufflinks_Simplified_norm.txt` obtained from the DESeq2 analysis.
