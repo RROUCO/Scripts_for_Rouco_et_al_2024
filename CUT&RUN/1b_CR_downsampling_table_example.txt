@@ -1,0 +1,8 @@
+sub_nHXD13PFL2_cat_R1_001.fastq	nHXD13PFL2_cat_R1_001.fastq.gz
+sub_nHXD13PFL2_cat_R2_001.fastq	nHXD13PFL2_cat_R2_001.fastq.gz
+sub_nHXD13DFL2_cat_R1_001.fastq	nHXD13DFL2_cat_R1_001.fastq.gz
+sub_nHXD13DFL2_cat_R2_001.fastq	nHXD13DFL2_cat_R2_001.fastq.gz
+sub_nHXD13UPFL_S9_L003_R1_001.fastq	nHXD13UPFL_S9_L003_R1_001.fastq.gz
+sub_nHXD13UPFL_S9_L003_R2_001.fastq	nHXD13UPFL_S9_L003_R2_001.fastq.gz
+sub_nHXD13UDFL_S8_L003_R1_001.fastq	nHXD13UDFL_S8_L003_R1_001.fastq.gz
+sub_nHXD13UDFL_S8_L003_R2_001.fastq	nHXD13UDFL_S8_L003_R2_001.fastq.gz

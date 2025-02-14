@@ -1,0 +1,1 @@
+chr3	66781632	66786630	Shox2_prom_Region_5kb

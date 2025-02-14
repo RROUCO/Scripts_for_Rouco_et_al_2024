@@ -1,6 +1,6 @@
 1st Step:
 scRNA-seq FASTQ files obtained from 10X experiments were processed with 10× Genomics Cell Ranger software (version 6.1.2) using the sbatch `Cellranger_analysis.sh` provided in this folder for each sample independently.
-Custom genome used for processing this samples can be found in https://zenodo.org/records/11219861
+Custom genome used for processing this samples can be found in https://zenodo.org/records/14865689
 
 2nd Step:
 Cell Ranger output files for each dataset were further processed using the velocyto run10x command, as described below, from the velocyto.py tool (version 0.17.17) in Python (version 3.9.12) with our custom genome GTF (https://zenodo.org/records/11219861) and the UCSC genome browser repeat masker.gtf file to mask expressed repetitive elements to generate a loom file for each sample.

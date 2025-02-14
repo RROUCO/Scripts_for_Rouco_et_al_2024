@@ -12,12 +12,15 @@ Then, we excluded genes having a fold change larger than 3 between the two stage
 
 2nd step: Filtering ChIP-seq peaks
 H3K27ac MACS2 `.narrowpeaks` were restricted within the interaction domain defined by promoter Capture-C (Andrey et al., 2017) using `2b_Filtered_Curated_gene_and_interaction_domain_mm39.bed` file generated afer manually assign the interaction domains from (Andrey et al., 2017) to the output list from the previous step `Filtered_Curated_Gene_list_avg_ratio.csv`. 
-Then H3K27ac peaks within protein-coding gene promoters were removed using the file `2c_exclusionAroundTSS_prot_coding.bed`.
+Then H3K27ac peaks within protein-coding gene promoters were removed using the file `2c_exclusionAroundTSS_prot_coding.bed`. At the Shox2 locus, peak called at the alternative Veph1 alternative promoter was manually excluded. 
 Remaining peaks were extended by +/- 300bp and merged.
 H3K27Ac peaks were then classified as putative common enhancers when present in both E10.5 and E13.5 using bedtools intersect. 
 H3K27Ac peaks present only in the E10.5 dataset were classified as putative early enhancers while H3K27Ac peaks present only in the E13.5 dataset were classified as putative late enhancers.
 
+Output file  `H3K27ac_FL_classified_peaks.bed` from step 2 containing the list of 1'625 putative enhancers classified was used to produce the tornado plot from Figure 1A using the command lines described in `Figure1A_Tornado_plot_from_classified_enhancers.sh`.
+
 3rd step: Assign putative enhancers to gene interaction domain
 Putative enhancers were then assigned to gene interaction domain. Running in R `3_domains_enhancers_stage.R`
 
-Output file `domains_mm39.csv` from step3 was used to produce Figure 1A using `Figure1a_plot_enhancer_category_across_loci.R`
+Output file `domains_mm39.csv` from step3 was used to produce Supplementary Figure 1A using `Supplementary_Figure1A_plot_enhancer_category_across_loci.R`
+
